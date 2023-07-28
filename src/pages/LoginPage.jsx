@@ -52,7 +52,7 @@ function LoginPage() {
 
   const onSubmit = async (data) => {
     const from = location.state?.from?.pathname || "/";
-    let { email, password } = data;
+    const { email, password } = data;
 
     try {
       await auth.login({ email, password }, () => {
