@@ -104,7 +104,7 @@ export default function MainHeader() {
             <Logo />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            CoderComm
+            Moment Social
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box>
