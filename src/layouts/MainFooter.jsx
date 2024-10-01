@@ -6,7 +6,7 @@ function MainFooter() {
     <Typography variant="body2" color="text.secondary" align="center" p={1}>
       {"Copyright © "}
       <Link color="inherit" href="https://www.momentSocial.vn">
-        Moment Social
+        SpiderNet
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
